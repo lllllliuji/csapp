@@ -508,7 +508,7 @@ Disassembly of section .text:
   4010f2:	5b                   	pop    %rbx
   4010f3:	c3                   	ret    
 
-00000000004010f4 <phase_6>:
+00000000004010f4 <j>:
   4010f4:	41 56                	push   %r14
   4010f6:	41 55                	push   %r13
   4010f8:	41 54                	push   %r12
