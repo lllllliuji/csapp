@@ -1,0 +1,18 @@
+iaddq V, rB
+
+fetch:
+        icode:ifun <- M_1[PC]
+        rA:rB <- M_1[PC + 1]
+        valC <- M_8[PC + 2]
+        valP <- PC + 10
+decode:
+        valB <- R[rB]
+execute:
+        valE <- valB + valC
+        Set CC
+memory:
+
+write back:
+        R[rB] <- valE
+PC update:
+        PC <- valP
